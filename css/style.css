@@ -1588,6 +1588,13 @@ button[type=submit] {
 
 }
 
+
+.about-header{
+  background-image: url(/img/About/About-cover.png);
+  background-size: cover;
+  background-position: center center;
+}
+
 /* PAGE HEADER */
 .page-header {
   width: 100%;
@@ -1596,7 +1603,7 @@ button[type=submit] {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: #215BA4;
+  /* background: #215BA4; */
   position: relative;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
