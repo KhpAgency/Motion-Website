@@ -938,7 +938,8 @@ button[type=submit] {
 .site-navigation .inner ul li a {
   color: #fff;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
+  font-family: 'Poppins';
 }
 
 .site-navigation .inner ul li a:hover {
@@ -1625,7 +1626,7 @@ button[type=submit] {
   height: 0;
   border-style: solid;
   border-width: 20px 120vw 20px 0;
-  border-color: transparent #7ee6f8 transparent transparent;
+  border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -20vw;
   bottom: -20px;
@@ -1667,6 +1668,7 @@ button[type=submit] {
   font-size: 13px;
   font-weight: 700;
   color: #fff;
+  font-family: 'Poppins';
 }
 
 .page-header .container {
@@ -2801,6 +2803,7 @@ button[type=submit] {
 
 
 /* New CSS */
+
 
 
 
