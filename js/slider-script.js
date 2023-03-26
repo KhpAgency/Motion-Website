@@ -1,13 +1,15 @@
 //logo slider
 
 $('.logos-slider').slick({
-slidesToShow: 4,
+slidesToShow: 6,
 slidesToScroll: 1,
 autoplay: true,
 autoplaySpeed: 1500,
 arrows: false,
 dots: false,
 pauseOnHover: false,
+
+
 responsive: [{
 breakpoint: 768,
 settings: {
