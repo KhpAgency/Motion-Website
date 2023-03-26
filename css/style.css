@@ -1699,8 +1699,9 @@ button[type=submit] {
 }
 
 .page-header .container .inner h1 {
-  font-size: 9vw;
+  font-size: 5vw;
   color: #fff;
+  font-family: 'Gotham Black';
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -1708,6 +1709,7 @@ button[type=submit] {
   transform: translateY(50px);
   opacity: 0;
   transition-delay: 1.25s;
+  text-align: center;
 }
 
 /* PARTNERS */
@@ -2795,6 +2797,20 @@ button[type=submit] {
   color: #fff;
   padding: 30px;
 }
+
+
+
+/* New CSS */
+
+
+
+
+
+
+
+ /* End New CSS */
+
+
 
 /* SOLUTIONS */
 .solutions {
