@@ -722,7 +722,7 @@ button[type=submit] {
   height: 0;
   position: absolute;
   bottom: 0;
-  background: #7ee6f8;
+  background: #1B89BC;
 }
 
 .preloader .layers span:nth-child(1) {
@@ -1101,7 +1101,7 @@ button[type=submit] {
   width: 76px;
   height: 76px;
   line-height: 76px;
-  background: #131314;
+  background: #215BA4;
   color: #fff;
   text-align: center;
   font-size: 22px;
@@ -1113,15 +1113,15 @@ button[type=submit] {
 }
 
 .swiper-button-prev:hover {
-  background: #215BA4;
-  color: #7ee6f8;
+  background: #1B89BC;
+  color: white;
 }
 
 .swiper-button-next {
   width: 76px;
   height: 76px;
   line-height: 76px;
-  background: #131314;
+  background: #215BA4;
   color: #fff;
   text-align: center;
   font-size: 22px;
@@ -1133,8 +1133,8 @@ button[type=submit] {
 }
 
 .swiper-button-next:hover {
-  background: #215BA4;
-  color: #7ee6f8;
+  background: #1B89BC;
+  color: white;
 }
 
 /* SIMPLE SLIDER */
@@ -2947,6 +2947,11 @@ button[type=submit] {
   color: #215BA4;
 }
 
+.boatimg {
+  margin-bottom: -70px;
+  transform: scale(0.8);
+}
+
 
 
 
@@ -3716,8 +3721,11 @@ button[type=submit] {
   display: inline-block;
   margin-bottom: 0;
   color: #fff;
-  font-weight: 700;
-  line-height: 56px;
+  /* font-weight: 700; */
+  /* line-height: 56px; */
+  text-align: center;
+  font-size: 1.5rem;
+  float: left;
 }
 
 .subscription-block .subscribe-box form {
@@ -3762,8 +3770,8 @@ button[type=submit] {
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
-  background: url(../images/world-map.png) center no-repeat #131314;
-  background-size: auto 90%;
+  background: url(/img/Mask_Group_8@2x.png) center no-repeat;
+  background-size: auto 100%;
   color: #fff;
   position: relative;
 }
@@ -3774,7 +3782,7 @@ button[type=submit] {
   height: 0;
   border-style: solid;
   border-width: 20px 120vw 20px 0;
-  border-color: transparent #7ee6f8 transparent transparent;
+  border-color: transparent #1B89BC transparent transparent;
   position: absolute;
   left: -20vw;
   top: -20px;
@@ -3829,7 +3837,7 @@ button[type=submit] {
 }
 
 .footer ol li a:hover {
-  color: #7ee6f8;
+  color: #1B89BC;
 }
 
 .footer ul {
@@ -3843,6 +3851,7 @@ button[type=submit] {
   margin: 2px 0;
   padding: 2px 0;
   list-style: none;
+  width: max-content;
 }
 
 .footer ul li:before {
@@ -3850,7 +3859,7 @@ button[type=submit] {
   width: 5px;
   height: 5px;
   float: left;
-  background: #7ee6f8;
+  background: #1B89BC;
   border-radius: 50%;
   margin-right: 10px;
   margin-top: 10px;
@@ -3862,7 +3871,7 @@ button[type=submit] {
 }
 
 .footer ul li a:hover {
-  color: #7ee6f8;
+  color: #1B89BC;
 }
 
 .footer .bottom-bar {
