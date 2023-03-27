@@ -329,7 +329,7 @@ button[type=submit] {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 0;
+  margin: 0px 0;
 }
 
 /* CUSTOM ELEMENTS */
@@ -1433,6 +1433,56 @@ button[type=submit] {
   font-weight: 700;
   font-family: 'Gotham';
   font-size: 1.8rem;
+}
+
+
+.title-blocksm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.title-blocksm img {
+  height: 24px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+
+.title-blocksm h6 {
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  color: #1B89BC;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: 'Gotham Black';
+  text-align: center;
+}
+
+.title-blocksm h2 {
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  font-family: 'Gotham';
+  font-size: 1.5rem;
+  color: #1B89BC;
+  text-align: center;
+  margin: 6% 0 10% 0;
+}
+
+
+.title-blocksm p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: justify;
+  word-spacing: -1.8px;
+  display: inline-block;
+  /* margin: 0 auto; */
+  max-width: 100%;
 }
 
 
@@ -2945,6 +2995,10 @@ button[type=submit] {
 
 .textcolor2 {
   color: #215BA4;
+}
+
+.mrg{
+  margin: 0% 7% 59px 6%;
 }
 
 
