@@ -1299,10 +1299,10 @@ button[type=submit] {
   width: 100%;
   display: block;
   font-weight: 400;
-  color: #215BA4;
+  color: #1B88BB;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-family: 'Gotham Black';
   text-align: center;
 }
@@ -1318,6 +1318,46 @@ button[type=submit] {
 }
 
 .text-content-block2 p {
+  display: block;
+  margin-bottom: -2%;
+  padding-right: 15%;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+  padding-left: 15%;
+  margin-top: 3%;
+  font-family: 'Poppins';
+}
+
+.text-content-block3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-content-block3 h6 {
+  width: 100%;
+  display: block;
+  font-weight: 400;
+  color: #215BA3;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-family: 'Gotham Black';
+  text-align: center;
+}
+
+.text-content-block3 h2 {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Gotham';
+  text-align: center;
+}
+
+.text-content-block3 p {
   display: block;
   margin-bottom: -2%;
   padding-right: 15%;
@@ -1380,7 +1420,7 @@ button[type=submit] {
   width: 100%;
   display: block;
   text-transform: uppercase;
-  color: #1B89BC;
+  /* color: #1B89BC; */
   font-size: 1.2rem;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -1388,6 +1428,40 @@ button[type=submit] {
 }
 
 .title-block h2 {
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  font-family: 'Gotham';
+  font-size: 1.8rem;
+}
+
+
+.title-blocklg {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.title-blocklg img {
+  height: 38px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.title-blocklg h6 {
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  /* color: #1B89BC; */
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: 'Gotham Black';
+}
+
+.title-blocklg h2 {
   width: 100%;
   display: block;
   font-weight: 700;
