@@ -1331,10 +1331,10 @@ button[type=submit] {
 }
 
 .title-block img {
-  height: 15px;
+  height: 22px;
   display: inline-block;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .title-block h6 {
@@ -1589,7 +1589,7 @@ button[type=submit] {
 }
 
 
-.about-header{
+.about-header {
   background-image: url(/img/About/About-cover.png);
   background-size: cover;
   background-position: center center;
@@ -1848,8 +1848,9 @@ button[type=submit] {
 .carousel-slider .swiper-slide figure figcaption h3 {
   width: 100%;
   display: block;
-  font-size: 3vw;
+  font-size: 2.2vw;
   font-weight: 300;
+  font-family: 'Gotham Black';
 }
 
 .carousel-slider .swiper-slide figure figcaption h3 a {
@@ -1945,7 +1946,8 @@ button[type=submit] {
   top: 0;
   z-index: 0;
   background: #215BA4;
-  mix-blend-mode: lighten;
+  /* mix-blend-mode: lighten; */
+  opacity: 0.5;
 }
 
 .bg-image .container {
@@ -1970,7 +1972,7 @@ button[type=submit] {
   font-size: 45px;
   text-align: center;
   font-family: 'Gotham';
-  
+
 }
 
 .bg-image .container a {
@@ -2810,15 +2812,26 @@ button[type=submit] {
 
 
 /* New CSS */
+.textleft {
+  text-align: left !important;
+}
+
+.iconsize {
+  height: 20px;
+}
+
+.image1 {
+  width: 70%;
+  float: right;
+  margin-bottom: -10px;
+}
 
 
 
 
 
 
-
-
- /* End New CSS */
+/* End New CSS */
 
 
 
