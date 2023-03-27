@@ -2997,6 +2997,9 @@ button[type=submit] {
   color: #215BA4;
 }
 
+.boatimg{
+  margin-bottom: -30px;
+}
 
 
 
@@ -3827,7 +3830,7 @@ button[type=submit] {
   height: 0;
   border-style: solid;
   border-width: 20px 120vw 20px 0;
-  border-color: transparent #1B89BC transparent transparent;
+  border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -20vw;
   top: -20px;
