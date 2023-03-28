@@ -1520,6 +1520,39 @@ button[type=submit] {
   font-size: 1.8rem;
 }
 
+.title-blockprt {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.title-blockprt img {
+  height: 38px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.title-blockprt h6 {
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  /* color: #1B89BC; */
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: 'Gotham Black';
+}
+
+.title-blockprt h2 {
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  font-family: 'Gotham';
+  font-size: 1.8rem;
+}
+
 .section-pdd {
   padding: 70px 0px 0px 0px !important;
 }
@@ -3828,7 +3861,7 @@ button[type=submit] {
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
-  background: url(/img/Mask_Group_8@2x.png) center no-repeat;
+  background: url(/img/Footer-58.jpg) center no-repeat;
   background-size: auto 100%;
   color: #fff;
   position: relative;
