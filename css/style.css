@@ -3073,6 +3073,9 @@ button[type=submit] {
   margin-left: 9%;
 }
 
+.container-fluid{
+  padding-left: 0px;
+}
 
 
 /* End New CSS */
