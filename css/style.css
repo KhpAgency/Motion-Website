@@ -1399,6 +1399,7 @@ button[type=submit] {
 .text-content-block a:hover {
   opacity: 0.9;
   text-decoration: none;
+  background: #1B89BC;
 }
 
 /* TITLE BLOCK */
