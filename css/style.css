@@ -267,7 +267,7 @@ button[type=submit] {
 /* CUSTOM CONTAINER */
 @media (min-width: 1300px) {
   .container {
-    max-width: 1340px;
+    max-width: 1540px;
   }
 }
 
@@ -1266,7 +1266,7 @@ button[type=submit] {
   color: #215BA4;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  font-size: 1.7rem;
+  font-size: 1.95rem;
   font-family: 'Gotham Black';
   text-align: center;
 }
@@ -3045,7 +3045,7 @@ button[type=submit] {
 }
 
 .image1 {
-  width: 80%;
+  width: 70%;
   float: right;
   margin-bottom: -10px;
 }
