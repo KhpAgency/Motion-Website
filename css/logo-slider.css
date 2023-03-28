@@ -1,10 +1,12 @@
 #body1 {
-    background-color: black;
+    /* background-color: rgb(211, 0, 0); */
   }
   #body1 .logo-grid {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px 300px 300px;
-    grid-template-rows: 300px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+    align-items: center;
+    place-content: center;
   }
   #body1 .logo-grid .column img {
     width: 100%;
@@ -21,6 +23,7 @@
     transition: all 0.3s ease-in-out;
     visibility: hidden;
     opacity: 0;
+    padding: 0% 15% 0% 15%;
   }
   #body1 .logo-grid .column .grid-logo-wrapper .grid-logo.active {
     transform: translateY(0px);
@@ -28,9 +31,9 @@
     opacity: 1;
   }
   #body1 {
-    background-color: #1d1d1d;
+    background-color: #ffffff;
     font-family: "Asap", sans-serif;
-    color: #989898;
+    /* color: #1115e6; */
     margin: 0 10px;
     font-size: 16px;
   }
