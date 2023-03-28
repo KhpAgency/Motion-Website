@@ -2222,7 +2222,7 @@ button[type=submit] {
 .bg-pattern {
   background: url(/img/Section-layout2.png) center no-repeat;
   background-size: auto
-  /* background: #215BA4; */
+    /* background: #215BA4; */
 }
 
 .bg-pattern:before {
@@ -3071,6 +3071,11 @@ button[type=submit] {
 
 .mrg2 {
   margin-left: 9%;
+}
+
+.b,
+strong {
+  font-weight: bold;
 }
 
 
