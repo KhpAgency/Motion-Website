@@ -2222,7 +2222,7 @@ button[type=submit] {
 .bg-pattern {
   background: url(/img/Section-layout2.png) center no-repeat;
   background-size: auto
-  /* background: #215BA4; */
+    /* background: #215BA4; */
 }
 
 .bg-pattern:before {
@@ -3073,10 +3073,14 @@ button[type=submit] {
   margin-left: 9%;
 }
 
-.container-fluid{
-  padding-left: 0px;
+.b,
+strong {
+  font-weight: bold;
 }
 
+.container-fluid {
+  padding-left: 0px;
+}
 
 /* End New CSS */
 
