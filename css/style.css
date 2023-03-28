@@ -1583,6 +1583,31 @@ button[type=submit] {
   z-index: 0;
 }
 
+.content-block1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  position: relative;
+}
+
+.content-block1.custom-block {
+  display: flex;
+}
+
+.content-block1.custom-block:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 120vw 20px 0;
+  border-color: transparent #215BA4 transparent transparent;
+  position: absolute;
+  left: -20vw;
+  top: -20px;
+  z-index: 0;
+}
+
 /* NAVBAR */
 .navbar {
   width: 100%;
@@ -2106,10 +2131,12 @@ button[type=submit] {
 }
 
 .multi-image-box img {
-  width: 65%;
+  width: 100%;
   display: inline-block;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); */
   position: relative;
+  border-top-right-radius: 130px;
+  border-bottom-right-radius: 130px;
 }
 
 .multi-image-box img:nth-child(1) {
@@ -3018,7 +3045,7 @@ button[type=submit] {
 }
 
 .image1 {
-  width: 70%;
+  width: 80%;
   float: right;
   margin-bottom: -10px;
 }
