@@ -2220,7 +2220,9 @@ button[type=submit] {
 
 /* BG PATTERN */
 .bg-pattern {
-  background: #215BA4;
+  background: url(/img/Section-layout2.png) center no-repeat;
+  background-size: auto
+  /* background: #215BA4; */
 }
 
 .bg-pattern:before {
@@ -3059,7 +3061,7 @@ button[type=submit] {
 }
 
 .boatimg {
-  margin-bottom: -30px;
+  margin-bottom: -35px;
 }
 
 .mrg {
@@ -3887,9 +3889,9 @@ button[type=submit] {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 150px;
+  padding-top: 135px;
   background: url(/img/Footer-58.jpg) center no-repeat;
-  background-size: auto 100%;
+  background-size: 100% auto;
   color: #fff;
   position: relative;
 }
