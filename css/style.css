@@ -4135,7 +4135,9 @@ only screen and (max-device-width: 991px) {
   }
 
   .partners .inner ul li:first-child {
-    display: none;
+    /* display: none; */
+    border-right: 0px solid #eee;
+
   }
 
   .image-box {
@@ -4303,7 +4305,7 @@ only screen and (max-device-width: 767px) {
   }
 
   .partners .inner ul li {
-    flex: none;
+    /* flex: none; */
     width: 33.3333%;
     padding: 15px;
   }
@@ -4421,6 +4423,12 @@ only screen and (max-device-width: 767px) {
     transform: scale(0.7);
     margin-top: 0px;
   }
+  .titles-h1 {
+    font-size: 1.5rem;
+  }
+  .carousel-slider .swiper-slide figure figcaption h3 {
+    font-size: 4.2vw;
+}
 
 }
 

@@ -6,7 +6,6 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    /* font-family: consolas; */
 }
 
 .container1 {
@@ -127,4 +126,25 @@
 .services-img {
     mix-blend-mode: color-dodge;
     filter: invert(1) brightness(10);
-  }
+}
+
+@media only screen and (max-width: 767px),
+only screen and (max-device-width: 767px) {
+
+    .body1 {
+        overflow-x: hidden;
+    }
+
+    .container1 {
+        width: 100%;
+        position: relative;
+        display: grid;
+        justify-content: space-between;
+        justify-items: center;
+    }
+
+    .container1 .card {
+        transform: scale(0.8);
+    }
+
+}
