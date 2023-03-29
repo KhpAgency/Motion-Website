@@ -135,6 +135,13 @@ theme.
   font-style: normal;
 }
 
+/* Colors */
+
+:root {
+  --ocean: #1B89BC;
+  --navy: #215BA4;
+}
+
 
 /* BODY */
 * {
@@ -608,7 +615,7 @@ button[type=submit] {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  background: #7ee6f8;
+  background: var(--ocean);
   position: fixed;
   left: 0;
   bottom: -100%;
@@ -642,12 +649,15 @@ button[type=submit] {
   overflow: hidden;
 }
 
+
+
+
 .page-transition .layers span {
   width: 33.33333%;
   height: 0;
   position: absolute;
   bottom: 0;
-  background: #131314;
+  background: #215BA4;
 }
 
 .page-transition .layers span:nth-child(1) {
@@ -1209,7 +1219,7 @@ button[type=submit] {
 
 .hamburger span:after {
   z-index: 2;
-  background: #7ee6f8;
+  background: var(--ocean);
   transition: all 0.15s linear 0.3s;
 }
 
@@ -1756,7 +1766,7 @@ button[type=submit] {
 
 .header .container .inner small b {
   font-weight: 400;
-  color: #7ee6f8;
+  color: var(--ocean);
   border-bottom: 1px solid #fff;
   padding-bottom: 8px;
 }
@@ -1924,7 +1934,7 @@ button[type=submit] {
 
 .page-header .container .inner small b {
   font-weight: 400;
-  color: #7ee6f8;
+  color: var(--ocean);
   border-bottom: 1px solid #fff;
   padding-bottom: 8px;
 }
@@ -2451,7 +2461,7 @@ button[type=submit] {
   float: left;
   margin-right: 15px;
   position: relative;
-  background: #7ee6f8;
+  background: var(--ocean);
   border-radius: 25px;
 }
 
