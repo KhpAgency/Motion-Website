@@ -4538,6 +4538,30 @@ only screen and (max-device-width: 767px) {
   .title-block h2{
     font-size: 1.2rem;
   }
+  .laptopview{
+    margin-top: 0px;
+  }
+  .display{
+    display: none;
+  }
+  .story-pleft{
+    padding-left: 20px !important;
+  }
+  .text-content-block h6{
+    font-size: 1.5rem;
+  }
+  .mtop50{
+    margin-top: 50px;
+  }
+  .fsize{
+    font-size: 1.6rem !important;
+  }
+  .bg-mob{
+    background-size: cover;
+  }
+  .scale{
+    transform: scale(0.9);
+  }
 
 }
 
