@@ -45,6 +45,8 @@
     /* background-image: url('img/newshirts.webp'); */
     background: #215BA4;
     transform: translateY(0);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .container1 .card .face.face1 .content {
@@ -84,6 +86,8 @@
 
 .container1 .card:hover .face.face2 {
     transform: translateY(0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .container1 .card .face.face2 .content p {
