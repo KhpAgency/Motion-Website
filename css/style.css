@@ -3098,7 +3098,7 @@ strong {
 
 .header1:before {
   content: "";
-  width: 100%;
+  width: 103%;
   height: 100%;
   position: absolute;
   left: 0;
@@ -3118,7 +3118,7 @@ strong {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 101%;
   min-height: 100%;
   z-index: -1;
 }
