@@ -1820,13 +1820,6 @@ button[type=submit] {
 
 }
 
-
-.about-header {
-  background-image: url(/img/About/About-cover.png);
-  background-size: cover;
-  background-position: center center;
-}
-
 /* PAGE HEADER */
 .page-header {
   width: 100%;
@@ -3095,6 +3088,25 @@ strong {
 .laptopview{
   background: white;
   margin-top: -55px;
+}
+
+.about-header {
+  background-image: url(/img/About/About-cover.png);
+  background-size: cover;
+  background-position: center center;
+}
+.contact-header {
+  background-image: url(/img/Contact/Contact-cover.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.icon-scale{
+  scale: 0.6;
+}
+
+.max{
+  width: max-content;
 }
 
 
