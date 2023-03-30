@@ -2264,7 +2264,7 @@ button[type=submit]:hover {
 
 /* BG PATTERN */
 .bg-pattern {
-  background: url(/img/Section-layout2.png) center no-repeat;
+  background: url(/img/section-layout2.png) center no-repeat;
   background-size: auto
     /* background: #215BA4; */
 }
