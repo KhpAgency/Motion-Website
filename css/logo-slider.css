@@ -1,39 +1,59 @@
 #body1 {
-    /* background-color: rgb(211, 0, 0); */
-  }
+  /* background-color: rgb(211, 0, 0); */
+}
+
+#body1 .logo-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: 75px 150px;
+  align-items: center;
+  place-content: center;
+}
+
+#body1 .logo-grid .column img {
+  width: 100%;
+}
+
+#body1 .logo-grid .column .grid-logo-wrapper {
+  position: relative;
+}
+
+#body1 .logo-grid .column .grid-logo-wrapper .grid-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  transform: translateY(-30px);
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0% 15% 0% 15%;
+}
+
+#body1 .logo-grid .column .grid-logo-wrapper .grid-logo.active {
+  transform: translateY(0px);
+  visibility: visible;
+  opacity: 1;
+}
+
+#body1 {
+  background-color: #ffffff;
+  font-family: "Asap", sans-serif;
+  /* color: #1115e6; */
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px),
+only screen and (max-device-width: 767px) {
+
   #body1 .logo-grid {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 100px 100px 100px;
     grid-template-rows: 75px 150px;
     align-items: center;
     place-content: center;
   }
-  #body1 .logo-grid .column img {
-    width: 100%;
-  }
-  #body1 .logo-grid .column .grid-logo-wrapper {
-    position: relative;
-  }
-  #body1 .logo-grid .column .grid-logo-wrapper .grid-logo {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    transform: translateY(-30px);
-    transition: all 0.3s ease-in-out;
-    visibility: hidden;
-    opacity: 0;
-    padding: 0% 15% 0% 15%;
-  }
-  #body1 .logo-grid .column .grid-logo-wrapper .grid-logo.active {
-    transform: translateY(0px);
-    visibility: visible;
-    opacity: 1;
-  }
-  #body1 {
-    background-color: #ffffff;
-    font-family: "Asap", sans-serif;
-    /* color: #1115e6; */
-    margin: 0 10px;
-    font-size: 16px;
-  }
+  
+
+}

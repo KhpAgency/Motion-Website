@@ -271,6 +271,7 @@ button[type=submit] {
   font-weight: 700;
   border-radius: 40px;
 }
+
 button[type=submit]:hover {
   background: var(--ocean);
   color: #fff;
@@ -1816,7 +1817,8 @@ button[type=submit]:hover {
   font-size: 3vw;
   color: #fff;
   font-weight: 100;
-  margin-bottom: 40px;
+  /* margin-bottom: 100px; */
+  margin-top: 50px;
   transform: translateY(50px);
   opacity: 0;
   transition-delay: 1.25s;
@@ -1837,7 +1839,7 @@ button[type=submit]:hover {
   display: inline-block;
   height: 56px;
   line-height: 56px;
-  margin-top: 400px;
+  margin-top: 300px;
   background: white;
   color: #215BA4;
   padding: 0 40px;
@@ -2264,12 +2266,11 @@ button[type=submit]:hover {
 
 /* BG PATTERN */
 .bg-pattern {
-  background: url(/img/section-layout2.png) center no-repeat;
-  background-size: auto
-    /* background: #215BA4; */
+  background: url(../img/Section-layout.png) center no-repeat;
+  background-size: auto;
 }
 
-.bg-pattern:before {
+/* .bg-pattern:before {
   content: "";
   width: 100%;
   height: 100%;
@@ -2280,7 +2281,7 @@ button[type=submit]:hover {
   background-size: 90% auto;
   z-index: 0;
   opacity: 0.1;
-}
+} */
 
 .bg-pattern:after {
   content: "";
@@ -3125,9 +3126,10 @@ button[type=submit]:hover {
   margin-bottom: 30px;
 }
 
-.mrgship{
-  margin-top: -3rem;
+.mrgship {
+  margin-top: 10rem;
 }
+
 .b,
 strong {
   font-weight: bold;
@@ -3143,18 +3145,19 @@ strong {
 }
 
 .about-header {
-  background-image: url(/img/About/About-cover.png);
+  background-image: url(../img/About/About-cover.png);
   background-size: cover;
   background-position: center center;
 }
 
 .contact-header {
-  background-image: url(/img/Contact/Contact-cover.png);
+  background-image: url(../img/Contact/Contact-cover.png);
   background-size: cover;
   background-position: center center;
 }
+
 .services-header {
-  background-image: url(/img/Services-Icons/Services-cover.jpg);
+  background-image: url(../img/Services-Icons/Services-cover.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -3191,9 +3194,18 @@ strong {
   scale: 0.7;
 }
 
-.fntform{
+.fntform {
   font-family: 'Poppins';
   color: var(--navy);
+}
+
+.abs-img {
+  position: absolute;
+  z-index: -1;
+  margin-top: -427px;
+  transform: scale(1.3);
+  left: 0px;
+  opacity: 0.3;
 }
 
 
@@ -4092,7 +4104,7 @@ strong {
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
-  background: url(/img/Footer-58.jpg) center no-repeat;
+  background: url(../img/Footer-58.jpg) center no-repeat;
   background-size: auto 112%;
   color: #fff;
   position: relative;
@@ -4481,6 +4493,7 @@ only screen and (max-device-width: 767px) {
   .header .container .inner h1 {
     font-size: 8vw;
     line-height: 1;
+    margin-top: -30px;
   }
 
   .page-header .container .inner small {
@@ -4518,11 +4531,19 @@ only screen and (max-device-width: 767px) {
   }
 
   .swiper-button-prev {
-    display: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
   }
 
   .swiper-button-next {
-    display: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
   }
 
   .carousel-slider .swiper-slide {
@@ -4660,7 +4681,39 @@ only screen and (max-device-width: 767px) {
   }
 
   .scale {
-    transform: scale(0.9);
+    transform: scale(0.8);
+    margin-top: -70px;
+  }
+
+  .partners .inner h6 {
+    font-size: 17px;
+  }
+
+  .subscription-block .subscribe-box h2 {
+    font-size: 20px;
+  }
+
+  .boatimg {
+    margin-bottom: -10px;
+  }
+
+  .bg-pattern:after {
+    content: "";
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .subscription-block {
+    margin-top: 30px;
+  }
+  .abs-img {
+    overflow-x: clip;
+    transform: scale(1);
+    margin-top: -300px;
   }
 
 }
