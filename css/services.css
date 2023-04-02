@@ -83,7 +83,7 @@
     transform: translateY(-100px);
 }
 
-.container1 .card .face.face2 p {
+.container1 .card .face.face2 ul {
     display: none;
 }
 
@@ -96,7 +96,7 @@
     height: 400px;
 }
 
-.container1 .card:hover .face.face2 p {
+.container1 .card:hover .face.face2 ul {
     display: block;
 }
 
