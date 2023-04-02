@@ -84,7 +84,16 @@
 }
 
 .container1 .card .face.face2 ul {
-    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    transition-delay: 0.2s;
+    color: transparent;
+}
+.container1 .card .face.face2 p {
+    opacity: 0;
+    transition: opacity 0.5s;
+    transition-delay: 0.2s;
+    color: transparent;
 }
 
 
@@ -93,11 +102,18 @@
     transform: translateY(0);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    height: 400px;
+    height: 420px;
 }
 
 .container1 .card:hover .face.face2 ul {
-    display: block;
+    opacity: 1;
+    color: black;
+
+}
+.container1 .card:hover .face.face2 p {
+    opacity: 1;
+    color: black;
+
 }
 
 .container1 .card .face.face2 .content p {
@@ -142,9 +158,9 @@
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
 
-    .body1 {
+    /* .body1 {
         overflow-x: hidden;
-    }
+    } */
 
     .container1 {
         width: 100%;
