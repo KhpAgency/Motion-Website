@@ -1739,7 +1739,7 @@ button[type=submit]:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 20px 120vw 20px 0;
+  border-width: 20px 119vw 20px 0;
   border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -18vw;
@@ -1848,12 +1848,14 @@ button[type=submit]:hover {
   border-radius: 56px;
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.16);
   transform: translateY(50px);
-  opacity: 0;
-  transition-delay: 1.4s;
+  opacity: 1;
+  /* transition-delay: 1.4s; */
 }
 
 .header .container .inner a:hover {
-  opacity: 0.9;
+  opacity: 1;
+  background: var(--ocean);
+  color: white;
   text-decoration: none;
 }
 
