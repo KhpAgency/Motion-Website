@@ -1611,7 +1611,7 @@ button[type=submit]:hover {
 
 /* CONTENT BLOCK */
 .content-block {
-  width: 100%;
+  width: 101%;
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
@@ -1627,7 +1627,7 @@ button[type=submit]:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 20px 120vw 20px 0;
+  border-width: 20px 121vw 20px 0;
   border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -20vw;
@@ -4102,7 +4102,7 @@ strong {
 
 /* FOOTER */
 .footer {
-  width: 100%;
+  width: 101%;
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
@@ -4117,7 +4117,7 @@ strong {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 20px 120vw 20px 0;
+  border-width: 20px 121vw 20px 0;
   border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -20vw;
@@ -4284,6 +4284,7 @@ only screen and (max-device-width: 1199px) {
 
   .subscription-block .subscribe-box .inner {
     text-align: center;
+    display: grid;
   }
 
   .subscription-block .subscribe-box h2 {
@@ -4452,11 +4453,12 @@ only screen and (max-device-width: 991px) {
 
   .content-block address {
     margin-bottom: 0;
+    width: fit-content;
   }
 
   .contact-form {
-    width: 90%;
-    margin: 0 5%;
+    width: 100%;
+    margin: 0 0%;
     margin-top: -50px;
   }
 
@@ -4468,6 +4470,7 @@ only screen and (max-device-width: 991px) {
     width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
+    font-size: 13px;
   }
 
   .subscription-block .subscribe-box form {
@@ -4488,8 +4491,54 @@ only screen and (max-device-width: 991px) {
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
+  .multi-image-box img{
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: -16px !important;
+  }
+  .title-blocksm h2{
+    font-size: 1.3rem;
+  }
+
+  .text-content-block2 p{
+    text-align: center;
+  }
+
+  .text-content-block3 p{
+    text-align: center;
+  }
+
+  .title-blocksm p{
+    text-align: center;
+  }
+
+  .mobtxt {
+    text-align: left;
+  }
+  .mrgbtn{
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobtxt2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .flagmob{
+    transform: scale(0.8);
+    margin-top: -7px;
+  }
+
+  .bg-mobile{
+    background-position-x: 434px;
+    background-position-y: 602px;
+  }
+
   .overflow1 {
     overflow-x: hidden;
+  }
+
+  .subtitle{
+    font-size: 1.2rem;
   }
 
   .header .container .inner small {
@@ -4507,7 +4556,11 @@ only screen and (max-device-width: 767px) {
   }
 
   .page-header .container .inner h1 {
-    font-size: 12vw;
+    font-size: 11vw;
+  }
+
+  .mob{
+
   }
 
   .partners {
@@ -4671,7 +4724,7 @@ only screen and (max-device-width: 767px) {
   }
 
   .text-content-block h6 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .mtop50 {
@@ -4684,6 +4737,7 @@ only screen and (max-device-width: 767px) {
 
   .bg-mob {
     background-size: cover;
+    background-position-x: -1418px;
   }
 
   .scale {
@@ -4696,7 +4750,7 @@ only screen and (max-device-width: 767px) {
   }
 
   .subscription-block .subscribe-box h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .boatimg {
@@ -4732,7 +4786,7 @@ only screen and (max-device-width: 767px) {
   }
 
   .title-blocksm h6 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .mrg {
