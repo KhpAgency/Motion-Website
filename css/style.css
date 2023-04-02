@@ -4488,6 +4488,10 @@ only screen and (max-device-width: 991px) {
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
+  .overflow1 {
+    overflow-x: hidden;
+  }
+
   .header .container .inner small {
     padding-right: 10%;
   }
@@ -4966,5 +4970,6 @@ only screen and (max-device-width: 767px) {
       transform: scale(1, 0);
     }
   }
+}
 
   /*# sourceMappingURL=style.css.map */
