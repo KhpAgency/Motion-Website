@@ -1908,7 +1908,19 @@ button[type=submit]:hover {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 20px 120vw 20px 0;
+  border-width: 20px 121vw 20px 0;
+  border-color: transparent #215BA4 transparent transparent;
+  position: absolute;
+  left: -20vw;
+  bottom: -20px;
+  z-index: 2;
+}
+.services-header:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 123.7vw 20px 0;
   border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -20vw;
@@ -2274,7 +2286,7 @@ button[type=submit]:hover {
 
 /* BG PATTERN */
 .bg-pattern {
-  background: url(../img/Section-layout.png) center no-repeat;
+  background: url(../img/Section-layout.webp) center no-repeat;
   background-size: auto;
 }
 
@@ -3157,20 +3169,21 @@ strong {
 }
 
 .about-header {
-  background-image: url(../img/About/About-cover.png);
+  background-image: url(../img/About/About-cover.webp);
   background-size: cover;
   background-position: center center;
   width: 101%;
 }
 
 .contact-header {
-  background-image: url(../img/Contact/Contact-cover.png);
+  background-image: url(../img/Contact/Contact-cover.webp);
   background-size: cover;
   background-position: center center;
+  width: 101%;
 }
 
 .services-header {
-  background-image: url(../img/Services-Icons/Services-cover.jpg);
+  background-image: url(../img/Services-Icons/Services-cover.webp);
   background-size: cover;
   background-position: center center;
   width: 103.7%;
@@ -4118,7 +4131,7 @@ strong {
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
-  background: url(../img/Footer-58.jpg) center no-repeat;
+  background: url(../img/Footer-58.webp) center no-repeat;
   background-size: auto 112%;
   color: #fff;
   position: relative;
@@ -4130,6 +4143,18 @@ strong {
   height: 0;
   border-style: solid;
   border-width: 20px 121vw 20px 0;
+  border-color: transparent #215BA4 transparent transparent;
+  position: absolute;
+  left: -20vw;
+  top: -20px;
+  z-index: 0;
+}
+.footer-services:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 123.7vw 20px 0;
   border-color: transparent #215BA4 transparent transparent;
   position: absolute;
   left: -20vw;
