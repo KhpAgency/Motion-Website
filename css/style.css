@@ -1148,6 +1148,7 @@ button[type=submit]:hover {
   color: #fff;
   text-align: center;
   font-size: 22px;
+  margin-right: 22px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
