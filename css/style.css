@@ -157,7 +157,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   overflow-x: hidden;
 }
 
@@ -1915,6 +1915,7 @@ button[type=submit]:hover {
   bottom: -20px;
   z-index: 2;
 }
+
 .services-header:after {
   content: "";
   width: 0;
@@ -3104,9 +3105,10 @@ button[type=submit]:hover {
 
 /* New CSS */
 
-.footer-services{
+.footer-services {
   width: 103.7% !important;
 }
+
 .textleft {
   text-align: left !important;
 }
@@ -4149,6 +4151,7 @@ strong {
   top: -20px;
   z-index: 0;
 }
+
 .footer-services:before {
   content: "";
   width: 0;
@@ -4491,6 +4494,8 @@ only screen and (max-device-width: 991px) {
   .content-block address {
     margin-bottom: 0;
     width: fit-content;
+    margin-left: 0;
+    font-size: 16px;
   }
 
   .contact-form {
@@ -4531,7 +4536,7 @@ only screen and (max-device-width: 767px) {
   .multi-image-box img {
     border-top-right-radius: 90px;
     border-bottom-right-radius: 90px;
-    margin-left: -16px !important;
+    margin-left: -20px !important;
   }
 
   .title-blocksm h2 {
@@ -4552,6 +4557,7 @@ only screen and (max-device-width: 767px) {
 
   .mobtxt {
     text-align: left;
+    font-size: 16px;
   }
 
   .mrgbtn {
@@ -4570,8 +4576,10 @@ only screen and (max-device-width: 767px) {
   }
 
   .bg-mobile {
-    background-position-x: 434px;
-    background-position-y: 602px;
+    background-position-x: 435px;
+    /* background-position-y: 830px; */
+    background-size: cover;
+    background-repeat: initial;
   }
 
   .overflow1 {
