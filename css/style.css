@@ -599,6 +599,12 @@ button[type=submit]:hover {
   content: "";
 }
 
+.preloader-img {
+  mix-blend-mode: color-dodge;
+  filter: invert(1) brightness(10);
+
+}
+
 /* ODOMETER */
 .odometer {
   line-height: 1;
@@ -4491,44 +4497,48 @@ only screen and (max-device-width: 991px) {
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
-  .multi-image-box img{
+  .multi-image-box img {
     border-top-right-radius: 90px;
     border-bottom-right-radius: 90px;
     margin-left: -16px !important;
   }
-  .title-blocksm h2{
+
+  .title-blocksm h2 {
     font-size: 1.3rem;
   }
 
-  .text-content-block2 p{
+  .text-content-block2 p {
     text-align: center;
   }
 
-  .text-content-block3 p{
+  .text-content-block3 p {
     text-align: center;
   }
 
-  .title-blocksm p{
+  .title-blocksm p {
     text-align: center;
   }
 
   .mobtxt {
     text-align: left;
   }
-  .mrgbtn{
+
+  .mrgbtn {
     margin-top: 30px;
     margin-bottom: 0px;
   }
+
   .mobtxt2 {
     text-align: center;
     font-size: 20px;
   }
-  .flagmob{
+
+  .flagmob {
     transform: scale(0.8);
     margin-top: -7px;
   }
 
-  .bg-mobile{
+  .bg-mobile {
     background-position-x: 434px;
     background-position-y: 602px;
   }
@@ -4537,7 +4547,7 @@ only screen and (max-device-width: 767px) {
     overflow-x: hidden;
   }
 
-  .subtitle{
+  .subtitle {
     font-size: 1.2rem;
   }
 
@@ -4556,12 +4566,10 @@ only screen and (max-device-width: 767px) {
   }
 
   .page-header .container .inner h1 {
-    font-size: 11vw;
+    font-size: 9vw;
   }
 
-  .mob{
-
-  }
+  .mob {}
 
   .partners {
     padding: 0;
@@ -5026,4 +5034,4 @@ only screen and (max-device-width: 767px) {
   }
 }
 
-  /*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */

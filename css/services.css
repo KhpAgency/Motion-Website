@@ -1,5 +1,5 @@
 .body1 {
-    margin: 0;
+    margin: 75px 0px 0px 0px;
     padding: 0;
     min-height: 100vh;
     /* background: #333; */
@@ -89,6 +89,7 @@
     transition-delay: 0.2s;
     color: transparent;
 }
+
 .container1 .card .face.face2 p {
     opacity: 0;
     transition: opacity 0.5s;
@@ -110,6 +111,7 @@
     color: black;
 
 }
+
 .container1 .card:hover .face.face2 p {
     opacity: 1;
     color: black;
@@ -155,6 +157,11 @@
     filter: invert(1) brightness(10);
 }
 
+.service-p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
 @media only screen and (max-width: 767px),
 only screen and (max-device-width: 767px) {
 
@@ -173,6 +180,10 @@ only screen and (max-device-width: 767px) {
     .container1 .card {
         transform: scale(0.8);
         margin-bottom: -150px;
+    }
+
+    .service-p {
+        padding: 0px 20px 0px 20px;
     }
 
 }
