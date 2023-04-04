@@ -4651,6 +4651,7 @@ only screen and (max-device-width: 767px) {
     height: 40px;
     line-height: 40px;
     font-size: 15px;
+    margin-right: 5px;
   }
 
   .carousel-slider .swiper-slide {
