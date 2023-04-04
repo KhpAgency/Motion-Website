@@ -4,7 +4,7 @@
 
 #body1 .logo-grid {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-columns: 170px 170px 170px 170px 170px 170px 170px 170px 170px;
   grid-template-rows: 75px 150px;
   align-items: center;
   place-content: center;
