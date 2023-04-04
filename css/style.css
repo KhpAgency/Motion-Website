@@ -4744,7 +4744,7 @@ only screen and (max-device-width: 767px) {
 
   .footer figure img {
     height: 100%;
-    transform: scale(0.7);
+    transform: scale(0.55);
     margin-top: 0px;
   }
 
