@@ -4091,6 +4091,7 @@ strong {
   text-align: center;
   font-size: 1.5rem;
   float: left;
+  margin-top: 15px;
 }
 
 .subscription-block .subscribe-box form {
